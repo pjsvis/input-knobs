@@ -23,7 +23,7 @@ window.addEventListener("load",()=>{
   background-position:0px 0%;
   background-color:transparent;
   touch-action:none;
-  cursor:pointer;
+  cursor:pointer; 
 }
 input[type=range].input-knob{
   width:${op.knobWidth}px; height:${op.knobHeight}px;
@@ -288,8 +288,10 @@ input[type=checkbox].input-switch:checked,input[type=radio].input-switch:checked
     };
     ik.wheel=(ev)=>{
       let delta=ev.deltaY>0?-ik.valrange.step:ik.valrange.step;
+      // TODO: Invert this or change the default
       if(!ev.shiftKey)
-        delta*=5;
+      // TODO: Change for 5 to 3
+        delta*=3;
       el.setValue(+el.value+delta);
       ev.preventDefault();
       ev.stopPropagation();

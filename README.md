@@ -4,6 +4,11 @@
 
 ---
 
+- [metallic tile background](https://www.deviantart.com/hhh316/art/Seamless-metal-texture-182943398)
+- [metallic tile foreground](https://www.deviantart.com/sweetsoulsister/art/Brushed-Metal-Silver-Texture-145936387)
+- [more tiles](https://naldzgraphics.net/free-seamless-metal-textures/)
+- [knob gallery](https://www.g200kg.com/en/webknobman/gallery.php)
+
 ## [input-knobs.js Sample Page](https://g200kg.github.io/input-knobs/)
 
 ---
