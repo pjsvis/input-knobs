@@ -45,5 +45,11 @@ export interface IK {
   wheel: (ev: any) => void;
 }
 
+type KnobType = 'range'  | 'switch' | 'slider' | 'checkbox' | 'radio';
+
+export interface InputKnob {
+  type:  KnobType;
+  
+}
 
 
