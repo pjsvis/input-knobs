@@ -1,0 +1,25 @@
+{
+  "name": "input-knobs",
+  "version": "1.0.0",
+  "description": "![](images/sample.png)",
+  "main": "input-knobs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm run tsc --watch"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjsvis/input-knobs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjsvis/input-knobs/issues"
+  },
+  "homepage": "https://github.com/pjsvis/input-knobs#readme",
+  "dependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.2"
+  }
+}

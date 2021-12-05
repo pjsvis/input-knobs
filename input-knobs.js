@@ -23,6 +23,7 @@ window.addEventListener("load",()=>{
   background-position:0px 0%;
   background-color:transparent;
   touch-action:none;
+  cursor:pointer;
 }
 input[type=range].input-knob{
   width:${op.knobWidth}px; height:${op.knobHeight}px;
@@ -55,6 +56,7 @@ input[type=checkbox].input-switch,input[type=radio].input-switch {
   border:none;
   border-radius:0;
   background-color:transparent;
+  cursor:pointer;
 }
 input[type=checkbox].input-switch:checked,input[type=radio].input-switch:checked {
   background-position:0% 100%;
